@@ -1,0 +1,305 @@
+*{
+	font-family: Arial;
+	border: border-box;
+	margin: 0px;
+	max-width: 100%;
+}
+
+#navbar1{
+	background-color: #131921;
+	display: flex;
+	height: 60px;
+	color: white;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+#navlogo{
+	height: 55px;
+	width: 100px;
+}
+
+#logo{
+	height: 50px;
+	width: 100px;
+	background-image: url("amazon_logo.png");
+	background-size: cover;
+}
+
+.navelements:hover{
+	border: 1px solid white;
+}
+
+#add2line{
+	display: flex;
+}
+
+#add1_1{
+	margin-left: 1rem;
+	color: #ccc;
+	font-size: 0.7rem;
+	display: flex;
+}
+
+#add1{
+	padding: 10px;
+	width: 65px;
+}
+
+.navelements{
+	margin-right: 5px;
+}
+
+#search_button{
+	height: 100%;
+	width: 50px;
+	background-color: #febd06;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+#navsearch{
+	display: flex;
+	margin-left: 10px;
+	border-radius: 20%;
+	width: 900px;
+	height: 40px;
+	border-radius: 4px;
+	margin-right: 10px;
+}
+
+#sel{
+	width: 50px;
+	background-color: #f3f3f3;
+	text-align: center;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border: none;
+}
+
+#search_box{
+	width: 100%;
+	font-size: 1rem;
+	border: none;
+}
+
+#navsearch:hover{
+	border: 2px solid orange;
+	border-radius: 6px;
+}
+
+#lang{
+	height: 50px;
+	width: 120px;
+}
+
+#lang_sel{
+	height: 100%;
+	width: 100%;
+	background-color: #131921;
+	color: white;
+	text-decoration: bold;
+	border: none;
+}
+
+#sign_in{
+	height: 55px;
+	width: 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 10px;
+}
+
+#line1{
+	font-size: 0.7rem;
+}
+
+#line2{
+	font-size: 0.9rem;
+}
+
+#orders{
+	height: 55px;
+	width: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 10px;
+}
+
+#cart{
+	height: 50px;
+	width: 70px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	padding: 3px;
+}
+
+/************************************************************************************************/
+
+#navbar2{
+	background-color: #232f3e;
+	height: 40px;
+	border: border-box;
+	margin: 0px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	font-size: 14px;
+}
+
+#All{
+	height: 38px;
+	width: 60px;
+	display: flex;
+	align-items: center;
+}
+
+#td{
+	width: 100px;
+	height: 38px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#cs18{
+	width: 129px;
+	height: 38px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#r18{
+	width: 70px;
+	height: 38px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#gc16{
+	width: 82px;
+	height: 38px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#s111{
+	width: 42px;
+	height: 38px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*****************************************************************************************************/
+
+#hero{
+	background-image: url("https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg");
+	background-size: cover;
+	width: 100vw
+}
+
+.boxing{
+	background-color: white;
+	height: 300px;
+	width: 20%;
+	padding: 20px;
+	font-size: 21px;
+}
+
+.arrangement{
+	display: flex;
+	flex-direction: column;	
+	height: 85%;
+	width: 100%;
+	align-items: center;
+	position: relative;
+	top: 10px;
+}
+
+#logo1{
+	background-image: url("box1_image.jpg");
+	background-size: cover;
+	height: 85%;
+	width: 85%;
+	padding-top: 10px;
+}
+
+#logo2{
+	background-image: url("box2_image.jpg");
+	background-size: cover;
+	height: 85%;
+	width: 85%;
+	padding-top: 10px;
+}
+
+#logo3{
+	background-image: url("box3_image.jpg");
+	background-size: cover;
+	height: 85%;
+	width: 85%;
+	padding-top: 10px;
+}
+
+#logo4{
+	background-image: url("box4_image.jpg");
+	background-size: cover;
+	height: 85%;
+	width: 85%;
+	padding-top: 10px;
+}
+
+#lane1{
+	display: flex;
+	justify-content: space-evenly;
+	width: 100vw;
+	padding-bottom: 40px;
+}
+
+#logo5{
+	background-image: url("box5_image.jpg");
+	background-size: cover;
+	height: 85%;
+	width: 85%;
+	padding-top: 10px;
+}
+
+#logo6{
+	background-image: url("box6_image.jpg");
+	background-size: cover;
+	height: 85%;
+	width: 85%;
+	padding-top: 10px;
+}
+
+#logo7{
+	background-image: url("box7_image.jpg");
+	background-size: cover;
+	height: 85%;
+	width: 85%;
+	padding-top: 10px;
+}
+
+#logo8{
+	background-image: url("box8_image.jpg");
+	background-size: cover;
+	height: 85%;
+	width: 85%;
+	padding-top: 10px;
+}
+
+#content{
+	position: relative;
+	top: 300px;
+}

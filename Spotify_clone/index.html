@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for Everyone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="left">
+        <div class="box1">
+            <div class="logo_close">
+                <img class="invert main_logo" src="img/logo.svg" alt="spotify_logo">
+                <img class="close" src="img/close.svg" alt="close">
+            </div>
+            <ul class="home_search">
+                <li class="li_home"><img class="invert " src="img/home.svg" alt="Home">Home</li>
+                <li class="li_search"><img class="invert " src="img/search.svg" alt="Search">Search</li>
+            </ul>
+        </div>
+        <div class="box2">
+            <div class="library">
+                <img src="img/playlist.svg" class="invert playlist_logo" alt="library_logo">
+                <span class="library_text">My Library</span>
+                <img src="img/add.svg" class="invert add_logo" alt="add">
+            </div>
+            <div class="lib_songs">
+                <ul class="lib_list">
+                </ul>
+            </div>
+            <div class="footer">
+                <a href="https://www.spotify.com/jp/legal/" class="footer_option"><span>Legal</span></a>
+                <a href="https://www.spotify.com/jp/privacy/" class="footer_option"><span>Safety & Privacy Center</span></a><br>
+                <a href="https://www.spotify.com/jp/legal/privacy-policy/" class="footer_option"><span>Privacy Policy</span></a>
+                
+                <a href="https://www.spotify.com/jp/legal/cookies-policy/" class="footer_option"><span>Cookies</span></a>
+                <a href="https://www.spotify.com/jp/legal/privacy-policy/#s3" class="footer_option"><span>About Ads</span></a><br>
+                <a href="https://www.spotify.com/jp/accessibility/" class="footer_option"><span>Accessibility</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <div class="nav">
+            <div class="arrow_div">
+                <div id="ham_div"><img src="img/hamburger.svg" id="ham"></div>
+                <div class="arrow_opt go_left"><img src="img/leftArrow.svg" class="arrows" alt="arrows"></div>
+                <div class="arrow_opt go_right"><img src="img/rightArrow.svg" class="arrows" alt="arrows"></div>  
+            </div>
+            <div class="buttons">
+                <button class="sign_up">Sign up</button>
+                <button class="login">Log in</button>
+            </div>
+        </div>  
+        <div class="container">
+            <div class="pop_albums">Popular artists</div>
+            <div class="card_collection"></div>
+            <div class="playbar">
+                <div class="seek_div">
+                    <div class="seekbar">
+                        <div class="seek"></div>
+                    </div>
+                </div>
+                <div class="songbar">
+                    <div class="time_remaining"></div>
+                    <div class="song_name"></div>
+                    <div class="volume">
+                        <img src="img/volume.svg" class="vol_logo">
+                        <input type="range" class="vol_range" value="70" min="0" max="100">
+                    </div>
+                    <div class="play_options">
+                        <img src="img/prevsong.svg" class="playbar_opt" alt="prev">
+                        <img src="img/pause.svg" class="playbar_opt" alt="play" id="play">
+                        <img src="img/nextsong.svg" class="playbar_opt" alt="next">
+                    </div>
+                    <div class="time_elapsed"></div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
